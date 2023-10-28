@@ -429,3 +429,16 @@
         transition: background-color 0.9s; /* El color de fondo cambia poco a poco */
         cursor: pointer;/*que salga el dedo del ratón al pasar por encima*/
     }
+	/***********************Que cambie de color al poner al pasar el ratón */
+    .box span:hover {
+        background: #C4376B;
+    }
+/***********************Todo los botones que cambien de color con transition al pasar el ratón por encima*/
+    a.button {
+        cursor: pointer;/*que salga el dedo del ratón al pasar por encima*/
+        transition: background-color 0.9s; /* El color de fondo cambia poco a poco */
+      }
+   
+      a.button:hover {
+        background: #C4376B; /*color del cambio*/
+    }
